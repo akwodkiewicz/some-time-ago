@@ -1,0 +1,13 @@
+{
+  "name": "some-time-ago",
+  "version": "0.1.0",
+  "description": "Human-friendly description of how long ago was a given date using Intl",
+  "main": "index.js",
+  "keywords": [
+    "time",
+    "ago",
+    "intl"
+  ],
+  "author": "akwodkiewicz",
+  "license": "MIT"
+}
