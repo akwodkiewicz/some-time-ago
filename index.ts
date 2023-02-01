@@ -8,11 +8,8 @@
  *
  * You can use `forcedLocale` to get the string in a specific locale, otherwise a browser locale
  * is used.
- *
- * @param {Date}             inputDate
- * @param {string|undefined} forcedLocale
  */
-function someTimeAgo(inputDate, forcedLocale) {
+function someTimeAgo(inputDate: Date, forcedLocale?: string) {
   // numeric: "auto" uses phrases like "yesterday" instead of "1 day ago"
   const rtf = new Intl.RelativeTimeFormat(forcedLocale, { numeric: "auto" });
 

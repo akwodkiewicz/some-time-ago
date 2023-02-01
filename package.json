@@ -2,12 +2,17 @@
   "name": "some-time-ago",
   "version": "0.1.0",
   "description": "Human-friendly description of how long ago was a given date using Intl",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "keywords": [
     "time",
     "ago",
     "intl"
   ],
   "author": "akwodkiewicz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.5"
+  }
 }
