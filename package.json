@@ -2,17 +2,18 @@
   "name": "some-time-ago",
   "version": "0.2.0",
   "description": "Human-friendly description of how long ago was a given date using Intl",
+  "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.5"
+  },
   "keywords": [
     "time",
     "ago",
     "intl"
   ],
-  "author": "akwodkiewicz",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^18.11.18",
-    "typescript": "^4.9.5"
-  }
+  "author": "Andrzej Wódkiewicz",
+  "repository": "github:akwodkiewicz/some-time-ago"
 }
