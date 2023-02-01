@@ -1,6 +1,6 @@
 {
   "name": "some-time-ago",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Human-friendly description of how long ago was a given date using Intl",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
