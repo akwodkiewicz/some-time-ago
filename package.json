@@ -1,6 +1,6 @@
 {
   "name": "some-time-ago",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Human-friendly description of how long ago was a given date using Intl",
   "license": "MIT",
   "main": "dist/index.js",
