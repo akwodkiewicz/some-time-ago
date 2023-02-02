@@ -50,4 +50,4 @@ function someTimeAgo(inputDate: Date, forcedLocale?: string) {
   }
 }
 
-module.exports = { someTimeAgo };
+export { someTimeAgo };
